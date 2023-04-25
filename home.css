@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Chivo Mono', monospace;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.particao-cabecalho{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/Landing\ Page.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 0 124px;
+}
+
+.particao-cabecalho > h1{
+    margin-top: 12rem;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+h3{
+    background-color: #d9d0c9;
+    font-style: italic;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.social{
+    margin-top: 11rem;
+    display: flex;
+}
+
+.social a{
+    color: black;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    border: 1px solid black;
+    min-width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    margin-left: 10px;
+}
+
+a:hover{
+    background-color: lightgrey;
+}
+
+.move a{
+    color: black;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    min-width: 4rem;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    margin: 45px;
+    border: 1px solid black;
+}
+
+
+.esquerda{
+    font-weight:bold ;
+    width: 33%;
+    height: 700px;
+    font-size: 17px;
+    background-color: #E7DFD8;
+    float: left;
+    text-align: center;
+    align-items: center;
+}
+.esquerda > img{
+    padding: 0 3px;
+    float: right;
+    margin: 13px 30px 15px ;
+    width: 120px;
+    height: 200px;
+}
+.esquerda > p{
+    text-align: left;
+    margin: 0 30px;
+}
+.esquerda > h5{
+    font-size: 17px;
+    text-align: right;
+    margin: 0 30px;
+}
+
+
+.direita{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #E7DFD8;
+    width: 33%;
+    height: 700px;
+    float: right;
+}
+.direita > img{
+    margin: 0 30px 10px;
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.direita > h5{
+    font-size: 20px;
+    margin: 10 40px;
+}
+
+
+.meio{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: #E7DFD8;
+    width: 34%;
+    height: 700px;
+    float: right;
+}
+h4{
+    font-size: 42px;
+}
+.meio > img{
+    width: 300px;
+    height: 150px;
+}
+
+.esquerda2{
+    width: 50%;
+    height: 700px;
+    background-color:#E7DFD8;
+    float: left;
+}
+section > h1{
+    margin: 5rem 50px;
+    font-size: 50px;
+}
+.content{
+    border-radius: 20px;
+    margin: 10px 40px;
+    width: 90%;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 400px;
+}
+input{
+    display: none;
+}
+
+#direita2 > h4{
+    text-align: left;
+    font-size: 33px;
+    margin: 10px 40px;
+}
+#direita2 > p{
+    margin: 0 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#direita2{
+    width: 50%;
+    height: 700px;
+    background-color:#E7DFD8;
+    float: right;
+}
+#direita2 > img{
+    margin: 0 40px;
+    width: 120px;
+    height: 110px;
+}
+
+article{
+    width: 100%;
+    height: 500px;
+    background-color: #E7DFD8;
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+}
+article > p{
+    margin: 0 40px;
+}
+article > h1{
+    font-size: 45px;
+    margin: 0 40px;
+}
+article > img{
+    margin: 0 100px;
+    width: 220px;
+    height: 170px;
+}
+
+footer{
+    font-weight: bold;
+    width: 100%;
+    height: 290px;
+    background-color: #e4d2c3;
+    float: right;
+    text-align: center;
+}
+footer > img{
+    margin: 3px ;
+    width: 20px;
+    height: 20px;
+}
